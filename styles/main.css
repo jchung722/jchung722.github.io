@@ -1,3 +1,56 @@
 header{
   background-color: teal;
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+body{
+  background-color: #e6ffe6;
+}
+
+nav ul li{
+  display: inline-block;
+  text-align: right;
+}
+
+header nav, header p{
+  display: inline-block;
+  width: 40%;
+}
+
+header p{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  color: white;
+}
+
+#top{
+  text-align: center;
+}
+
+#top h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: black;
+  margin: 0 0 0 0;
+}
+
+#top p{
+  font-family: 'Pacifico', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3em;
+}
+
+#top img{
+  width: 30%;
+  border-radius: 30em;
+  border: 10px solid white;
+}
+
+section article{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  margin: auto;
 }
