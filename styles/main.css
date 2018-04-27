@@ -67,10 +67,18 @@ header p a:hover{
 }
 
 #top img{
-  width: 25%;
   border-radius: 30em;
   border: 10px solid white;
   margin: 10% 0 0 0;
+}
+
+img {
+  width: 25%;
+}
+
+.about {
+  display: inline-block;
+  width: 25%;
 }
 
 section article{
