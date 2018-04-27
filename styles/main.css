@@ -1,12 +1,11 @@
 header{
   background-color: teal;
-  margin-top: 0;
-  position: fixed;
   width: 100%;
+  position: fixed;
 }
 
 body{
-  background-color: #e6ffe6;
+  background-color: white;
 }
 
 nav ul li{
@@ -17,19 +16,18 @@ nav ul li{
   margin-right: 2%;
 }
 
-nav ul li a{
+a{
   color: black;
   text-decoration: none;
 }
 
 nav ul li a:hover{
-  text-decoration: underline;
+  color: white;
 }
 
 header nav{
-  width: 80%;
+  width: 85%;
   display: inline-block;
-  float: right;
 }
 
 header p{
@@ -68,7 +66,7 @@ header p a:hover{
 
 #top img{
   border-radius: 30em;
-  border: 10px solid white;
+  border: 2px solid black;
   margin: 10% 0 0 0;
 }
 
@@ -76,9 +74,9 @@ img {
   width: 25%;
 }
 
-.about {
+.about p {
   display: inline-block;
-  width: 25%;
+  width: 30%;
 }
 
 section article{
@@ -86,7 +84,7 @@ section article{
   text-align: center;
   width: 30%;
   margin: auto;
-  border: 10px solid white;
+  border: 3px solid black;
 }
 
 footer {
