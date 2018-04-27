@@ -47,24 +47,25 @@ header p a:hover{
   color: gray;
 }
 
-#top{
+.home{
   text-align: center;
+  height: 90vh;
 }
 
-#top h1{
+.home h1{
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
   color: black;
   margin: 0 0 0 0;
 }
 
-#top p{
+.home p{
   font-family: 'Pacifico', cursive;
   font-family: 'Shadows Into Light', cursive;
   font-size: 1.3em;
 }
 
-#top img{
+.home img{
   width: 25%;
   border-radius: 30em;
   border: 2px solid black;
