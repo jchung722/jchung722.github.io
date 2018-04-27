@@ -65,31 +65,37 @@ header p a:hover{
 }
 
 #top img{
+  width: 25%;
   border-radius: 30em;
   border: 2px solid black;
   margin: 10% 0 0 0;
 }
 
-img {
-  width: 25%;
+.about {
+  padding-top: 10vh;
+  display: grid;
+  grid-gap: 20px;
+  width: 75%;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
 }
 
-.about p {
-  display: inline-block;
-  width: 30%;
+.about div img {
+  width: 100%;
 }
 
 .portfolio {
   padding-top: 10vh;
   display: grid;
   grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  align-items: stretch;
+  justify-items: stretch;
+  grid-gap: 10px;
 }
 
 .portfolio article{
   display: inline-block;
   text-align: center;
-  width: 30%;
-  margin: auto;
   border: 3px solid black;
 }
 
