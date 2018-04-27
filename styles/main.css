@@ -79,7 +79,13 @@ img {
   width: 30%;
 }
 
-section article{
+.portfolio {
+  padding-top: 10vh;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.portfolio article{
   display: inline-block;
   text-align: center;
   width: 30%;
