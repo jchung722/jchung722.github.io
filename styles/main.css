@@ -101,12 +101,18 @@ body{
   grid-gap: 10px;
 }
 
-.portfolio article{
+.portfolio article {
   display: inline-block;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   text-align: center;
   border: 3px solid black;
+}
+
+article h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+
 }
 
 /* footer style */
