@@ -84,6 +84,7 @@ body{
   width: 75%;
   grid-template-columns: 1fr 1fr;
   justify-content: space-around;
+  font-family: 'Lato', sans-serif;
 }
 
 .about div img {
@@ -103,16 +104,21 @@ body{
 
 .portfolio article {
   display: inline-block;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   text-align: center;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 article h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 
+}
+
+.bestbites {
+  background-image: url("../assets/bestbites.png");
+  background-position: center;
 }
 
 /* footer style */
@@ -158,5 +164,6 @@ article h3 {
 footer {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  background-color: grey;
+  border-top: 1px solid black;
+  padding: 1%;
 }
