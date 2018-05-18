@@ -78,7 +78,7 @@ body{
 
 /* about page style */
 .about {
-  padding: 10vh 0;
+  padding: 75px 0;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
@@ -94,7 +94,7 @@ body{
 
 /* portfolio page style */
 .portfolio {
-  padding: 10vh 0;
+  padding: 100px 0 50px 0;
   display: grid;
   grid-template: repeat(6, 1fr)/ repeat(3, 1fr);
   align-items: stretch;
