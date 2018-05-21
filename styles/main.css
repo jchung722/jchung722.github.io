@@ -82,25 +82,29 @@ body{
   opacity: 0.75;
 }
 
-.desc:hover {
+.yellow:hover {
   color: #DCB239;
 }
 
 
 /* about page style */
 .about {
-  padding: 75px 0;
+  padding: 100px 0 50px 0;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   font-family: 'Lato', sans-serif;
   margin: 0 20%;
-  align-items: center;
 }
 
 .about div img {
+  padding-top: 2%;
   width: 100%;
+}
+
+h2 {
+  margin: 0;
 }
 
 /* portfolio page style */
