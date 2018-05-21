@@ -22,6 +22,10 @@ nav ul li a:hover{
   color: white;
 }
 
+.here {
+  color: white;
+}
+
 a{
   color: black;
   text-decoration: none;
@@ -48,24 +52,25 @@ header p a:hover{
 
 body{
   background-color: white;
+  min-width: 950px;
 }
 
 .home{
   text-align: center;
-  height: 90vh;
+  height: 91vh;
 }
 
 .home h1{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 3em;
   color: black;
   margin: 0 0 0 0;
 }
 
 .home p{
-  font-family: 'Lato', sans-serif;
-  font-size: 1.3em;
+  font-family: monospace;
+  font-size: 1.75em;
 }
 
 .home img{
@@ -132,10 +137,11 @@ article h3 {
 .icon {
   display: inline-block;
   border-radius: 50%;
-  border: 2px solid black;
-  height: 45px;
-  width: 45px;
+  border: 1px solid black;
+  height: 35px;
+  width: 35px;
   margin-right: 5px;
+  background-color: white;
 }
 
 .email:hover {
@@ -154,7 +160,9 @@ article h3 {
 }
 
 .icon img {
-  margin-top: 11px;
+  margin-top: 8px;
+  width: 20px;
+  height: auto;
 }
 
 .copyright {
@@ -171,6 +179,7 @@ article h3 {
 footer {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  border-top: 1px solid black;
   padding: 1%;
+  background-color: #FEDCD2;
+  height: 43px;
 }
