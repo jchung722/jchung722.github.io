@@ -57,15 +57,14 @@ body{
 
 .home{
   text-align: center;
-  height: 91vh;
+  height: 93vh;
 }
 
 .home h1{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 3em;
-  color: black;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .home p{
@@ -75,9 +74,16 @@ body{
 
 .home img{
   width: 25%;
-  border-radius: 30em;
-  border: 2px solid black;
+  border-radius: 50%;
   margin: 10% 0 0 0;
+}
+
+.home img:hover{
+  opacity: 0.75;
+}
+
+.desc:hover {
+  color: #DCB239;
 }
 
 
@@ -155,8 +161,8 @@ article h3 {
 }
 
 .github:hover {
-  border-color: grey;
-  background-color: grey;
+  border-color: #DCB239;
+  background-color: #DCB239;
 }
 
 .icon img {
@@ -174,12 +180,13 @@ article h3 {
 .media {
   float: right;
   width: 200px;
+  margin-top: 8px;
 }
 
 footer {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  padding: 1%;
+  padding: 0 1%;
   background-color: #FEDCD2;
-  height: 43px;
+  height: 57px;
 }
