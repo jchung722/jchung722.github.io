@@ -58,6 +58,7 @@ body{
 .home{
   text-align: center;
   height: 93vh;
+  min-height: 650px;
 }
 
 .home h1{
@@ -166,7 +167,7 @@ h4 {
 .icon {
   display: inline-block;
   border-radius: 50%;
-  border: 1px solid black;
+  /* border: 1px solid grey; */
   height: 35px;
   width: 35px;
   margin-right: 5px;
